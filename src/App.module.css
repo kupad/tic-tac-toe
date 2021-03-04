@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+}
+
+.board > div {
+    font-size: 43px;
+    padding: 5px;
+    text-align: center;
+}
+
+.leftBorder {
+    border-left: 2px solid black
+}
+
+.bottomBorder {
+    border-bottom: 2px solid black;
+}
