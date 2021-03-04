@@ -1,5 +1,5 @@
 # tic-tac-toe
 Tic-Tac-Toe implemented with React
-=======
-# Getting Started with Create React App
+
+Everyone does a tic-tac-toe, I think. This is another.
 
